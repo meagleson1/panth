@@ -1,0 +1,29 @@
+
+<!--CSS Style requirements for Web Pages-->
+
+body{
+ background-color: white;
+ padding: 10px;
+}
+      
+input[type="submit"]{
+ border: 1px solid #777777;
+ color: #ffffff;
+ background-color: #268efb;
+ text-shadow: 0px 1px 1px #ffffff;
+ box-shadow:  5px 5px 10px #777777;
+ border-radius: 5px;
+ padding: 5px;
+ margin-top: 10px;
+}
+input[type="submit"]:hover{
+ border: 1px solid #777777;
+ background-color: #66ffff;
+ color: #ffffff;
+ cursor: pointer;
+}
+.errormessage{
+    font-size: 4em;
+    color: red;
+    margin: auto;
+}
